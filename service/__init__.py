@@ -6,7 +6,7 @@ and SQL database
 """
 import sys
 from flask import Flask
-from flask_talisman import Talisman 
+from flask_talisman import Talisman
 from flask_cors import CORS
 from service import config
 from service.common import log_handlers
